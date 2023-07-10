@@ -31,18 +31,15 @@ a {
   font-size: 65px;
 
   font-weight: 700;
-
- 
 }
 .banner-container-info {
   color: #444343;
   text-align: right;
 
- 
   font-size: 15px;
 
   font-weight: 400;
- 
+
   margin-bottom: 40px;
   margin-top: 40px;
 }
@@ -56,33 +53,29 @@ a {
   text-decoration: none;
 }
 
+/* midle-section */
+
 .second-section {
   text-align: center;
-  
 }
 .second-section-container {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  
 }
 .l-half {
   width: 50%;
-
-  
 }
 .r-half {
   width: 50%;
   margin-left: 100px;
-
 }
 img {
   width: 80%;
 }
 .profile-img {
   margin-top: 220px;
-  
+
   margin-left: 200px;
   margin-right: 150px;
   margin-bottom: 100px;
@@ -91,44 +84,131 @@ img {
   text-align: left;
 }
 .profile {
-  
 }
 #one {
   color: #151414;
-    text-align: left;
+  text-align: left;
   font-size: 40px;
 
   font-weight: 700;
 }
-.profile{
-    text-align: center;
+.profile {
+  text-align: center;
 }
 .profile-description {
   color: #444343;
-    text-align: left;
+  text-align: left;
   font-size: 15px;
-    width: 60%;
+  width: 60%;
   font-weight: 400;
   padding-bottom: 20px;
   padding-top: 25px;
 }
 #two {
-  color:  #444343;
-  
+  color: #444343;
+
   font-size: 16px;
-  
+
   font-weight: 400;
   line-height: 26px;
 }
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 li {
-    display: flex;
-    align-items: center;
-    padding: 8px;
+  display: flex;
+  align-items: center;
+  padding: 8px;
 }
 i.fa-check {
-    
-    margin-right: 10px;
+  margin-right: 10px;
+}
+/* skill-section */
+
+.skills {
+  width: 100%;
+  height: 50vh;
+}
+.skills h2 {
+  text-align: center;
+  padding-top: 5%;
+  margin-bottom: 60px;
+
+  color: #151414;
+
+  font-size: 40px;
+
+  font-weight: 700;
+}
+.skillmother {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 200px;
+}
+.skillmother h3 {
+  padding-top: 20px;
+  color: #151414;
+
+  font-size: 25px;
+
+  font-weight: 700;
+}
+.skillmother p {
+  color: #737272;
+
+  font-size: 15px;
+  font-weight: 500;
+  padding: 20px;
+}
+.s-info-img img {
+  padding: 10px;
+  width: 92.958px;
+  height: 92.958px;
+  margin-left: 80px;
+  text-align: center;
+}
+.call-section {
+  width: 100%;
+  height: 50vh;
+
+  background-image: url("../images/gradient2.png"), url("../images/watch.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* text-align: center;
+    padding: 100px; */
+}
+.call-section-text {
+  color: #fff;
+  /* background-color: #f15d2213; */
+  font-size: 20px;
+  padding: 120px;
+  font-weight: 700;
+  margin-left: 350px;
+}
+.call-action-btn {
+  
+  text-align: center;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  border-radius: 10px;
+  background-color: white;
+
+  
+  padding: 20px 25px;
+  display: inline-block;
+  color: #F15B22;
+  
+  text-decoration: none;
+}
+.call-section-text h2 {
+  color: #fff;
+
+  font-size: 40px;
+
+  font-weight: 700;
 }
